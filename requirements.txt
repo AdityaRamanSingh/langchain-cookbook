@@ -1,0 +1,32 @@
+# LangChain Core
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# OpenAI
+langchain-openai
+openai
+
+# Anthropic
+langchain-anthropic
+
+# Google Gemini
+langchain-google-genai
+google-generativeai
+
+# Hugging Face
+langchain-huggingface
+transformers
+huggingface-hub
+
+# Vector Database
+langchain-chroma
+chromadb
+
+# Environment Variables
+python-dotenv
+
+# ML Utilities
+numpy
+scikit-learn

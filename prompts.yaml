@@ -1,0 +1,30 @@
+system_prompt: |-
+  You are an expert assistant who can solve any task using code blobs.
+  You will be given a task to solve as best you can.
+  To do so, you have been given access to a list of tools.
+
+planning:
+  initial_facts: |-
+    Below I will present you a task.
+  initial_plan: |-
+    You will build a step by step plan to solve the task.
+  update_facts_pre_messages: |-
+    Below I will present you a task.
+  update_facts_post_messages: |-
+    Now write your updated facts list.
+  update_plan_pre_messages: |-
+    You have been given a task.
+  update_plan_post_messages: |-
+    Now write your updated plan.
+
+managed_agent:
+  task: |-
+    You're a helpful agent.
+  report: |-
+    Here is the final answer.
+
+final_answer:
+  pre_messages: |-
+    Based on all the information above.
+  post_messages: |-
+    Now provide your final answer.

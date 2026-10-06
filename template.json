@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are a research paper summarization assistant. Summarize the following research paper based on the user's requirements. Research Paper: {paper_input} Explanation Style: {style_input} Summary Length: {length_input} Provide a clear and accurate summary covering: 1. The main problem addressed 2. The proposed approach or methodology 3. Key findings or results 4. Important conclusions Keep the explanation in the requested style and length.",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}

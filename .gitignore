@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+.venv/
+.gradio/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+docs/*.pdf
+docs/*.txt
